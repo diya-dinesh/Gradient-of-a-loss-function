@@ -12,7 +12,7 @@ int main() {
     float arr[4][3] = {
         {0, 1, 1}, {2, 1, 9}, {1, 0, 1}, {-2, 1, 7}
     };
-    float w1 = 0.1, w2 = 0.7;
+    float w1 = 0.3, w2 = 0.5;
    
     for (int i = 0; i < 4; i++) {
         float x1 = arr[i][0], x2 = arr[i][1], y = arr[i][2];
